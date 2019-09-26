@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html class="black">
+<head>
+
+
+  <title>Blaikies</title>
+  <meta charset="utf-8">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/music.css">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+<body  data-spy="scroll" data-target=".nav-wraper" data-offset-bottom="64">
+
+  <div class="preloader-background">
+  <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div>
+      <div class="gap-patch">
+        <div class="circle"></div>
+      </div>
+      <div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <header>
+    <div class="header-bg"></div>
+    <nav class="nav-wraper white" data-spy="affix" data-offset-bottom="0">
+      <div class="container">
+
+        <a href="#" class="brand-logo indigo-text text-darken-3">Blaikies</a>
+      </div>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons indigo-text text-darken-3">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="indigo-text text-darken-3 lienmenu" href="#musique">Musique</a></li>
+        <li><a class="indigo-text text-darken-3 lienmenu" href="#jv">Jeux-Vidéos</a></li>
+        <li><a class="indigo-text text-darken-3 lienmenu" href="#litterature">Littérature</a></li>
+        <li><a class="indigo-text text-darken-3 lienmenu" href="#cultures">Cultures</a></li>
+      </ul>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+    <li><a class="indigo-text text-darken-3 lienmenu" href="#musique">Musique</a></li>
+    <li><a class="indigo-text text-darken-3 lienmenu" href="#jv">Jeux-Vidéos</a></li>
+    <li><a class="indigo-text text-darken-3 lienmenu" href="#litterature">Littérature</a></li>
+    <li><a class="indigo-text text-darken-3 lienmenu" href="#cultures">Cultures</a></li>
+  </ul>
+  </header>
+
+  <main class="black" >
+         <div class="player">
+      <canvas></canvas>
+    <div class="song">
+      <div class="artist">Kavinsky</div>
+      <div class="name">Odd Look ft. The Weeknd</div>
+    </div>
+    <div class="playarea">
+      <div class="prevSong"></div>
+      <div class="play"></div>
+      <div class="pause"></div>
+      <div class="nextSong"></div>
+    </div>
+    <div class="soundControl"></div>
+    <div class="time">00:00</div>
+  </div>
+
+
+<!--
+
+<div class="parallax-container">
+      <div class="parallax"><img src="https://images.wallpaperscraft.com/image/hologram_scheme_scifi_139294_3840x2160.jpg"></div> -->
+
+<!-- Brève présentation -->
+
+<div class="parallax-content">
+
+
+<div class="center"><p class="white-text welcome">Éternel enfant</p></div>
+
+</div>
+</div>
+
+<!-- Début des projets -->
+
+
+
+      <div class="row scrollspy" id="projets">
+        <div class="col s12 m10 offset-m1 black white-text">
+          <h3 class="category-name ancre">Musique</h3>
+
+          <!--<div class="player">
+            <canvas></canvas>
+          <div class="song">
+            <div class="artist">Kavinsky</div>
+            <div class="name">Odd Look ft. The Weeknd</div>
+          </div>
+          <div class="playarea">
+            <div class="prevSong"></div>
+            <div class="play"></div>
+            <div class="pause"></div>
+            <div class="nextSong"></div>
+          </div>
+          <div class="soundControl"></div>
+          <div class="time">00:00</div>
+        </div>
+          </div>-->
+        </div>
+</div>
+
+
+<!--Fin des projets-->
+
+<div class="parallax-container">
+      <div class="parallax"><img src="images/parallax1.jpg"></div>
+</div>
+
+<!--Début des compétences-->
+
+
+      <div class="row scrollspy" id="skills">
+        <div class="col s12 m10 offset-m1 indigo white-text">
+          <h3 class="category-name ancre">Compétences</h3>
+          <div class="card">
+            <div class="card-content indigo darken-2">
+
+              <h4 class="center">Informatiques</h4>
+
+              <div class="row">
+                <div class="col s12 l6">
+                  <div class="card">
+                    <div class="card-content indigo lighten-2">
+                      <h5 class="center ">Langages</h5>
+
+
+                      <div class="tab">
+                        <button class="tablinks active langinfo" onmouseenter="openSkill(event, 'Java')">Java</button>
+                        <button class="tablinks langinfo" onmouseenter="openSkill(event, 'HTML')">HTML</button>
+                        <button class="tablinks langinfo" onmouseenter="openSkill(event, 'CSS')">CSS</button>
+                        <button class="tablinks langinfo" onmouseenter="openSkill(event, 'C')">C</button>
+                        <button class="tablinks langinfo" onmouseenter="openSkill(event, 'PLSQL')">PLSQL</button>
+                        <button class="tablinks langinfo" onmouseenter="openSkill(event, 'JS')">JS</button>
+                      </div>
+
+                      <div id="Java" class="tabcontent opentab skill">
+                        <div>Java</div>
+                        <div class="progress white">
+                          <div class="determinate amber darken-2" style="width: 35%;"></div>
+                        </div>
+                      </div>
+
+                      <div id="HTML" class="tabcontent skill">
+                        <div>HTML</div>
+                        <div class="progress white">
+                          <div class="determinate amber darken-2" style="width: 45%"></div>
+                        </div>
+                      </div>
+
+                      <div id="CSS" class="tabcontent skill">
+                        <div>CSS</div>
+                        <div class="progress white">
+                          <div class="determinate amber darken-2" style="width: 40%"></div>
+                        </div>
+                      </div>
+
+                      <div id="C" class="tabcontent skill">
+                        <div>C</div>
+                        <div class="progress white">
+                          <div class="determinate amber darken-2" style="width: 25%"></div>
+                        </div>
+                      </div>
+
+                      <div id="PLSQL" class="tabcontent skill">
+                        <div>PLSQL</div>
+                        <div class="progress white">
+                          <div class="determinate amber darken-2" style="width: 50%"></div>
+                        </div>
+                      </div>
+
+                      <div id="JS" class="tabcontent skill">
+                        <div>JavaScript</div>
+                        <div class="progress white">
+                          <div class="determinate amber darken-2" style="width: 5%"></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </div>
+
+                  </div>
+                  <div class="col s12 l6">
+                    <div class="card" id="card-domains">
+                      <div class="card-content indigo lighten-2">
+                        <h5 class="center">Domaines</h5>
+                        <div class="tab">
+                          <button class="tablinks domaine" onmouseenter="openSubject(event, 'Sys')">Systèmes</button>
+                          <button class="tablinks domaine" onmouseenter="openSubject(event, 'Res')">Réseaux</button>
+                          <button class="tablinks domaine" onmouseenter="openSubject(event, 'IHM')">IHM</button>
+
+                        </div>
+
+                        <div id="Sys" class="tabcontent opentab matiere">
+                          <div>Administration Systèmes</div>
+                          <div class="progress white">
+                            <div class="determinate amber darken-2" style="width: 35%"></div>
+                          </div>
+                        </div>
+
+                        <div id="Res" class="tabcontent matiere">
+                         <div>Administration Réseaux</div>
+                         <div class="progress white">
+                          <div class="determinate amber darken-2" style="width: 15%"></div>
+                        </div>
+                      </div>
+
+                      <div id="IHM" class="tabcontent matiere">
+                       <div>Interfaces Homme-Machine</div>
+                       <div class="progress white">
+                        <div class="determinate amber darken-2" style="width: 13%"></div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <h4 class="center">Relationnelles</h4>
+
+            <div class="row">
+              <div class="col s12 l6">
+                <div class="card">
+                  <div class="card-content indigo lighten-2">
+                    <h5 class="center amber-text">Linguistiques</h5>
+                    <div class="section center">Français : Courant <span class="amber-text text-darken-3">(C2)</span></div>
+                    <div class="section center">Anglais : Intermédiaire supérieur <span class="amber-text text-darken-1">(B2)</span></div>
+                    <div class="section center">Japonais : Débutant <span class="amber-text text-lighten-2">(A0)</span></div>
+                  </div>
+                </div>
+              </div>
+                <div class="col s12 l6">
+                  <div class="card">
+                    <div class="card-content indigo lighten-2">
+                      <h5 class="center amber-text">Professionnelles</h5>
+                      <div class="section center">Communication</div>
+                      <div class="section center">Travail en groupe</div>
+                      <div class="section center">Éthique</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!--Fin des compétences-->
+
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="./images/study.jpg">
+  </div>
+</div>
+
+
+
+
+
+<!--Début de éducation-->
+      <div class="row scrollspy" id="edu">
+        <div class="col s12 m10 offset-m1 indigo white-text">
+          <h3 class="ancre category-name">Education</h3>
+          <div class="card">
+            <div class="card-panel indigo darken-2">
+              <div class="row">
+
+
+                <div class="col s6">
+                  <div class="card-content"><p><span class="amber-text text-darken-3">2018</span><br><br><img src="./images/diploma.png" class="icon"> Obtention du DAEU B<br><br>Admission au DUT informatique de l'IUT de Montpellier</p></div>
+                </div>
+
+                <div class="center vertical"></div>
+
+                <div class="col s6">
+                  <div class="card-content"></div>
+                </div>
+                <div class="col s6">
+                  <div class="card-content"></div>
+                </div>
+
+                <div class="center vertical"></div>
+
+                <div class="col s6">
+                  <div class="card-content"></div>
+                </div>
+                <div class="col s6">
+                  <div class="card-content"><p><span class="amber-text text-darken-3">2012</span><br><br><img src="./images/diploma.png" class="icon"> Obtention du BEP Systèmes Électroniques Numériques<br>
+                    <br><img src="./images/diploma.png" class="icon"> Obtention du B1V<br><br>Lycée <i>Jean Mermoz</i> de Montpellier</p></div>
+                    </div>
+
+                <div class="center vertical"></div>
+
+
+                <div class="col s6">
+                  <div class="card-content"><p><span class="amber-text text-darken-3">2010</span><br><br><img src="./images/diploma.png" class="icon"> Obtention du BEPC<br><br>Collège <i>Las Cazes</i> de Montpellier</p></div>
+                </div>
+
+                <div class="col s6">
+                  <div class="card-content"></div>
+                </div>
+                
+
+                <div class="center vertical"></div>
+
+                <div class="col s6">
+                  <div class="card-content"></div>
+                </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!--Fin de éducation-->
+  
+
+
+
+</main>
+<div class="parallax-container">
+      <div class="parallax"><img src="https://c.wallhere.com/photos/51/55/social_media_logos_cosmos-988777.jpg!d"></div>
+</div>
+
+
+<!--Début du footer contact-->
+<footer>
+
+
+  <div class="row scrollspy" id="contact">
+    <div class="col s12 m10 offset-m1 indigo white-text">
+      <h3 class="category-name ancre">Contact
+      </h3>
+      <div class="card">
+        <div class="card-content indigo darken-2">
+          <div class="row">
+            <a href="https://www.linkedin.com/in/mark-ylann-laveder-b68b09170/" class="pure-button button-socicon"><span class="socicon socicon-linkedin white-text"></span></a>&nbsp
+            <a href="https://www.facebook.com/markylannl" class="pure-button button-socicon"><span class="socicon socicon-facebook white-text"></span></a>&nbsp
+            <a href="https://github.com/LavederMark-Ylann" class="pure-button button-socicon"><span class="socicon socicon-github white-text"></span></a>
+            
+            <div class="input-field col s12 m6 l3 offset-l1">
+              <i class="material-icons prefix">account_box</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Nom</label>
+            </div>
+            <div class="input-field col s12 m6 l3">
+              <i class="material-icons prefix">fingerprint</i>
+              <input id="icon_prefix2" type="text" class="validate" required>
+              <label for="icon_prefix2">Prénom*</label>
+            </div>
+          <div class="input-field col s12 m6 l3 offset-l1">
+            <i class="material-icons prefix">email</i>
+            <input id="icon_prefix3" type="email" class="validate" required>
+            <label for="icon_prefix3">E-mail*</label>
+          </div>
+
+        <div class="input-field col s12 m6 offset-l1">
+            <i class="material-icons prefix">create</i>
+            <textarea id="icon_prefix4" class="materialize-textarea"></textarea>
+            <label for="icon_prefix4">Ecrire un message...*</label>
+          </div>
+
+
+          <div class="input-field col s6 m3 offset-s1 offset-m7 offset-l1">
+              <button class="btn waves-effect waves-light" type="submit" name="action" disabled>Envoyer
+              <i class="material-icons right">send</i>
+              </button>
+              <p><br><i>Pas encore de php ! Désolé !</i></p>
+            </div>
+
+        </div>
+      </div>
+
+          </div>
+    </div>
+  </div>
+
+<p class="indigo-text text-darken-3 center"><i>Copyright ©2019 Mark-Ylann Laveder</i></p>
+</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="./javascript/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./javascript/konami.js"></script>
+<script src="./javascript/music.js"></script>
+<script>$(document).ready(function(){$('.tap-target').tapTarget();});</script>
+</body>
+</html>

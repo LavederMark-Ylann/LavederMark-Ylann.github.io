@@ -1,0 +1,124 @@
+html{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+nav ul a{
+	z-index: 5;
+}
+nav ul a:hover {
+    text-shadow: 0 0 3px #ffe082!important;
+}
+.category-name{
+  margin-left:10%;
+}
+
+button:focus{
+	background-color: transparent!important;
+}
+
+body{
+	overflow: auto !important;
+}
+
+.brand-logo{
+   font-weight: 900;
+}
+
+nav ul li a{
+	height: 100%;
+}
+
+nav ul{
+	height: 100%;
+}
+
+ul.sidenav, nav.nav-wraper{
+	background-color: #192029 !important;
+}
+
+html, body{
+	background-color: rgba(14, 14, 14, 1);
+}
+
+li.indicator{
+	background-color: #ffab00 !important;
+}
+
+li.tab a:focus{
+	background-color:rgba(25, 32, 41, 0.7) !important;
+}
+
+
+.flag{
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+  cursor: pointer;
+}
+
+.slider{
+  background-color: #192029 !important;
+  color:#192029;
+}
+
+.slider .indicators .indicator-item.active{
+  background-color:#ffa000 !important;
+}
+
+div#list{
+  overflow: auto !important;
+}
+
+div#list-screen{
+  z-index: 1 !important;  
+}
+
+.preloader-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;  
+}
+
+a.active{
+  font-weight: 900;
+}
+
+.card{
+  color: #192029 !important;
+  background-color: #192029 !important;
+  border-color: #192029 !important;
+  border-radius: 10px !important;
+}
+#force{
+background-color: #192029 !important;
+  border-color: #192029 !important;
+  border-radius: 10px !important;
+}
+ .parallax-container{
+  z-index: 2;
+ }
+
+#backintime:hover{
+  color: #ff6f00 !important;
+ text-decoration: underline !important;
+}
+.modal{
+  background-color: #192029 !important;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+p{
+  text-align: justify;
+}
