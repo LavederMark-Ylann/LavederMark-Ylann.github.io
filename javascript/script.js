@@ -17,7 +17,7 @@ $(document).ready(function(){
   $('.sidenav').sidenav();
   $('textarea#icon_prefix4').characterCounter();
   $('.modal').modal();
-  
+  $('.materialboxed').materialbox();
 });
 
 function openSkill(evt, skillName) {
