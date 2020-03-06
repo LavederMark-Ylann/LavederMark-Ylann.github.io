@@ -17,7 +17,7 @@ let canvas = c1.context;
 
 // $("body").append(tela);
 $("body").prepend(c3.canvas);
-writeText(c2.canvas, c2.context, "Mark-Ylann\n\nLaveder")
+writeText(c2.canvas, c2.context, "En recherche de stage\n\ndans le développement\n\ndu 30 mars au 19 juin !")
 
 
 class Particle{

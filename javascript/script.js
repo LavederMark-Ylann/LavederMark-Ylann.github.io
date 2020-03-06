@@ -16,6 +16,7 @@ $(document).ready(function(){
   $('.parallax').parallax();
   $('.sidenav').sidenav();
   $('textarea#icon_prefix4').characterCounter();
+  $('.modal').modal();
   
 });
 
