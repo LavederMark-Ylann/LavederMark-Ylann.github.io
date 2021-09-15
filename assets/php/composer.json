@@ -1,0 +1,6 @@
+{
+    "require": {
+        "alexacrm/php-crm-toolkit": "dev-master",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
